@@ -1120,7 +1120,6 @@ body {
     #plantas .contenedor-plantas .dep {
       width: 100%;
       position: relative;
-      display: none;
       height: calc(100vh - 132px); }
       #plantas .contenedor-plantas .dep .izquierda {
         position: absolute;
@@ -1172,21 +1171,16 @@ body {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center; }
-        #plantas .contenedor-plantas .dep .derecha .imagen {
-          width: 100%;
-          padding: 20px;
-          -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
-          #plantas .contenedor-plantas .dep .derecha .imagen svg {
-            width: 100%; }
-            #plantas .contenedor-plantas .dep .derecha .imagen svg #num-uno, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-dos, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-tres, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-cuatro, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-cinco, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-seis, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-siete, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-ocho, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-nueve, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-diez, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-once, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-doce, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-trece, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-catorce, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-quince, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-dieciseis, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-diecisiete {
-              cursor: pointer;
-              position: relative;
-              z-index: -1; }
-            #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-uno, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-dos, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-tres, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-cuatro, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-cinco, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-seis, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-siete, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-ocho, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-nueve, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-diez, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-once, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-doce, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-trece, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-catorce, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-quince, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-dieciseis, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-diecisiete {
-              position: relative;
-              z-index: 2;
-              display: none; }
+        #plantas .contenedor-plantas .dep .derecha .imagen svg {
+          height: 70vh; }
+          #plantas .contenedor-plantas .dep .derecha .imagen svg #num-uno, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-dos, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-tres, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-cuatro, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-cinco, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-seis, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-siete, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-ocho, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-nueve, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-diez, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-once, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-doce, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-trece, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-catorce, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-quince, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-dieciseis, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-diecisiete {
+            cursor: pointer;
+            position: relative;
+            z-index: -1; }
+          #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-uno, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-dos, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-tres, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-cuatro, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-cinco, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-seis, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-siete, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-ocho, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-nueve, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-diez, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-once, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-doce, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-trece, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-catorce, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-quince, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-dieciseis, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-diecisiete {
+            position: relative;
+            z-index: 2;
+            display: none; }
     #plantas .contenedor-plantas .departamentoa .derecha .imagen svg {
       height: 70vh; }
       #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-uno-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-dos-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-tres-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-cuatro-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-cinco-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-seis-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-siete-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-ocho-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-nueve-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-diez-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-once-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-doce-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-trece-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-catorce-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-quince-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-dieciseis-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-diecisiete-a {
@@ -1200,6 +1194,79 @@ body {
   width: 100%;
   position: relative;
   bottom: -25px; }
+
+@media (max-width: 650px) {
+  #plantas .contenedor-plantas {
+    height: 100% !important; }
+    #plantas .contenedor-plantas .tabs {
+      display: none; }
+    #plantas .contenedor-plantas .dep {
+      height: auto !important; }
+      #plantas .contenedor-plantas .dep .izquierda {
+        position: static;
+        width: 100%;
+        display: block; }
+        #plantas .contenedor-plantas .dep .izquierda .lead {
+          text-align: center;
+          padding-left: 15px;
+          padding-right: 15px;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+          #plantas .contenedor-plantas .dep .izquierda .lead h2 span {
+            text-decoration: underline; }
+        #plantas .contenedor-plantas .dep .izquierda .imagen {
+          width: 200px;
+          height: 200px;
+          border-radius: 50%;
+          border: solid 1px #191c1c;
+          position: relative;
+          overflow: hidden;
+          margin: 0 auto;
+          margin-top: 50px; }
+          #plantas .contenedor-plantas .dep .izquierda .imagen img {
+            width: 100%;
+            position: absolute;
+            left: 30px;
+            top: 20px; }
+      #plantas .contenedor-plantas .dep .derecha {
+        position: static;
+        width: 80%;
+        margin: 0 auto;
+        height: 100%;
+        display: block;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        #plantas .contenedor-plantas .dep .derecha .imagen svg {
+          width: 100%; }
+          #plantas .contenedor-plantas .dep .derecha .imagen svg #num-uno, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-dos, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-tres, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-cuatro, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-cinco, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-seis, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-siete, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-ocho, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-nueve, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-diez, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-once, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-doce, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-trece, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-catorce, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-quince, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-dieciseis, #plantas .contenedor-plantas .dep .derecha .imagen svg #num-diecisiete {
+            cursor: pointer;
+            position: relative;
+            z-index: -1; }
+          #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-uno, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-dos, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-tres, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-cuatro, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-cinco, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-seis, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-siete, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-ocho, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-nueve, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-diez, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-once, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-doce, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-trece, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-catorce, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-quince, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-dieciseis, #plantas .contenedor-plantas .dep .derecha .imagen svg #fig-diecisiete {
+            position: relative;
+            z-index: 2;
+            display: none; }
+    #plantas .contenedor-plantas .departamentoa .derecha .imagen svg {
+      height: 70vh; }
+      #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-uno-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-dos-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-tres-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-cuatro-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-cinco-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-seis-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-siete-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-ocho-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-nueve-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-diez-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-once-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-doce-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-trece-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-catorce-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-quince-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-dieciseis-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #num-diecisiete-a {
+        cursor: pointer;
+        position: relative; }
+      #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #fig-uno-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #fig-dos-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #fig-tres-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #fig-cuatro-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #fig-cinco-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #fig-seis-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #fig-siete-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #fig-ocho-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #fig-nueve-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #fig-diez-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #fig-once-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #fig-doce-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #fig-trece-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #fig-catorce-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #fig-quince-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #fig-dieciseis-a, #plantas .contenedor-plantas .departamentoa .derecha .imagen svg #fig-diecisiete-a {
+        position: relative;
+        display: none; }
+  #footer {
+    width: 100%;
+    position: relative;
+    bottom: -25px;
+    margin-top: 100px; } }
 
 #interiores {
   position: relative;

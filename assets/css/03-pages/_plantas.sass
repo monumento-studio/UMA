@@ -58,7 +58,6 @@
     .dep
       width: 100%
       position: relative
-      display: none
       height: calc(100vh - 132px)
       .izquierda
         position: absolute
@@ -95,11 +94,8 @@
         justify-content: center
         align-items: center
         .imagen
-          width: 100%
-          padding: 20px
-          box-sizing: border-box
           svg
-            width: 100%
+            height: 70vh
             #num-uno, #num-dos, #num-tres, #num-cuatro, #num-cinco, #num-seis, #num-siete, #num-ocho, #num-nueve, #num-diez, #num-once, #num-doce, #num-trece, #num-catorce, #num-quince, #num-dieciseis, #num-diecisiete
               cursor: pointer
               position: relative
@@ -132,3 +128,83 @@
   width: 100%
   position: relative
   bottom: -25px
+@media (max-width: 650px)
+  #plantas
+    #menu
+    .contenedor-plantas
+      height: 100% !important
+      .tabs
+        display: none
+      .dep
+        height: auto !important
+        .izquierda
+          position: static
+          width: 100%
+          display: block
+          .lead
+            text-align: center
+            padding-left: 15px
+            padding-right: 15px
+            box-sizing: border-box
+            h2
+              span
+                text-decoration: underline
+          .imagen
+            width: 200px
+            height: 200px
+            border-radius: 50%
+            border: solid 1px $black
+            position: relative
+            overflow: hidden
+            margin: 0 auto
+            margin-top: 50px
+            img
+              width: 100%
+              position: absolute
+              left: 30px
+              top: 20px
+        .derecha
+          position: static
+          width: 80%
+          margin: 0 auto
+          height: 100%
+          display: block
+          flex-direction: column
+          justify-content: center
+          align-items: center
+          .imagen
+            svg
+              width: 100%
+              #num-uno, #num-dos, #num-tres, #num-cuatro, #num-cinco, #num-seis, #num-siete, #num-ocho, #num-nueve, #num-diez, #num-once, #num-doce, #num-trece, #num-catorce, #num-quince, #num-dieciseis, #num-diecisiete
+                cursor: pointer
+                position: relative
+                z-index: -1
+              #fig-uno, #fig-dos, #fig-tres, #fig-cuatro, #fig-cinco, #fig-seis, #fig-siete, #fig-ocho, #fig-nueve, #fig-diez, #fig-once, #fig-doce, #fig-trece, #fig-catorce, #fig-quince, #fig-dieciseis, #fig-diecisiete
+                position: relative
+                z-index: 2
+                display: none
+
+
+      .departamentoa
+        .izquierda
+        .derecha
+          .imagen
+            svg
+              height: 70vh
+              #num-uno-a, #num-dos-a, #num-tres-a, #num-cuatro-a, #num-cinco-a, #num-seis-a, #num-siete-a, #num-ocho-a, #num-nueve-a, #num-diez-a, #num-once-a, #num-doce-a, #num-trece-a, #num-catorce-a, #num-quince-a, #num-dieciseis-a, #num-diecisiete-a
+                cursor: pointer
+                position: relative
+              #fig-uno-a, #fig-dos-a, #fig-tres-a, #fig-cuatro-a, #fig-cinco-a, #fig-seis-a, #fig-siete-a, #fig-ocho-a, #fig-nueve-a, #fig-diez-a, #fig-once-a, #fig-doce-a, #fig-trece-a, #fig-catorce-a, #fig-quince-a, #fig-dieciseis-a, #fig-diecisiete-a
+                position: relative
+                display: none
+      .departamentob
+        .izquierda
+        .derecha
+      .departamentofachada
+        .izquierda
+        .derecha
+  #footer
+    width: 100%
+    position: relative
+    bottom: -25px
+    margin-top: 100px
