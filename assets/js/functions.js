@@ -757,6 +757,7 @@ $( document ).ready(function() {
     var winH2 = $win.height() * 2 - 10;   // Get the window height.
     var winH3 = $win.height() * 2 + 10;   // Get the window height.
     var winH4 = $win.height() * 3 + 10;   // Get the window height.
+    var winH7 = $win.height() * 6 - 10;   // Get the window height.
 
     $win.on("scroll", function () {
       if ($(this).scrollTop() > winH ) {
@@ -783,8 +784,10 @@ $( document ).ready(function() {
 
       }
 
-      if ($(this).scrollTop() > winH3 ) {
+      if ($(this).scrollTop() > winH7 ) {
+        $('.links ul li a ').css('color', '#191c1c');
       } else {
+        $('.links ul li a ').css('color', '#004c42');
       }
 
     }).on("resize", function(){ // If the user resizes the window
