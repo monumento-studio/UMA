@@ -1,0 +1,50 @@
+doctype
+html
+  head
+    title UMA
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="stylesheet" type="text/css" href="assets/css/style.css")
+    link(rel="icon" href="assets/img/favicon.png" type="image/x-icon")
+  body
+    #home
+      include _menu.html
+      .contenedor-home
+        .middle-home
+          .logo
+          .living.full
+            p living perfection
+          .bosque.full
+            p bosque real
+      .split-image.full
+        .cocoen
+          img(src="assets/img/izquierda.jpg" alt="")
+          img(src="assets/img/derecha.jpg" alt="")
+      .section-text.full
+        .lead
+          h2 Structure & nature
+        .text
+          p The landscape design will play a significant role in the project, creating a seamless balance between the green areas, and the bold geometry of the architectural lines. The refined interiors will offer an upscale simplicity that highlight the beautifully crafted materials.
+        .link
+          a(href="interiores.html") ver interiores
+      .section-image.full
+      .section-architecture.full
+        .izquierda
+          .arriba
+            .lead
+              h2 ARCHITECTURE
+          .abajo
+            .sub
+              h3 DESIGNED TO CAPTURE BOTH LIGHT AND AIR.
+            .text
+              p The buildings structure is composed by light patterns, creating an elegant and ever changing system creating a precise and timeless space. 
+            .link
+              a(href="plantas.html") Ver plantas
+        .derecha
+          .image
+            img(src="assets/img/edificio.svg")
+      include _footer.html
+    script(src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous")
+    script(type="text/javascript" src="assets/js/jquery.scrollify.js")
+    script(type="text/javascript" src="assets/js/cocoen-jquery.js")
+    script(type="text/javascript" src="assets/js/cocoen.js")
+    script(type="text/javascript" src="assets/js/functions.js")

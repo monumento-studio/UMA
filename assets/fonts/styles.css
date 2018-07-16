@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'Recta-Bold';
+  src: url('Recta-Bold.eot?#iefix') format('embedded-opentype'),  url('Recta-Bold.otf')  format('opentype'),
+	     url('Recta-Bold.woff') format('woff'), url('Recta-Bold.ttf')  format('truetype'), url('Recta-Bold.svg#Recta-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

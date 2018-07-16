@@ -1,0 +1,210 @@
+#home
+  margin: 0 auto
+  height: 100vh
+  width: 100vw
+  #menu
+    .ham
+      position: fixed
+      top: 25px
+      right: 25px
+      .line
+        background: white !important
+    .links
+      position: absolute
+      top: 0
+      right: 0
+  .contenedor-home
+    background: url(../img/bg-home-effect.png)
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    background-attachment: fixed
+    .middle-home
+      position: relative
+      text-align: center
+      .logo
+        height: 100vh
+      .living
+        height: 100vh
+        p
+          position: fixed
+          color: white
+          top: 55%
+          left: 50%
+          transform: translate(-50%, -50%)
+          font-size: 3em
+          text-transform: uppercase
+          letter-spacing: 2px
+          transition: all 600ms ease-in-out
+          opacity: 0
+      .up
+        p
+          opacity: 1
+          top: 50%
+          transition: all 600ms ease-in-out
+      .upbosque
+        height: 100vh
+        p
+          opacity: 1 !important
+          top: 50% !important
+          transition: all 600ms ease-in-out
+      .bosque
+        p
+          position: fixed
+          color: white
+          top: 60%
+          left: 50%
+          transform: translate(-50%, -50%)
+          font-size: 3em
+          text-transform: uppercase
+          letter-spacing: 2px
+          transition: all 600ms ease-in-out
+          opacity: 0
+      .upexit
+        p
+          opacity: 0
+          top: 40%
+  .split-image
+    height: 100vh !important
+    .cocoen
+      height: 100%
+      img
+        height: 100%
+  .section-text.full
+    background-color: $black
+    position: relative
+    z-index: 1
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    .lead
+      text-align: center
+      max-width: 400px
+      h2
+        color: $green
+    .text
+      margin-top: 100px
+      max-width: 500px
+      text-align: justify
+      text-align-last: center
+      p
+        color: white
+    .link
+      margin-top: 100px
+      a
+        color: white
+  .section-image.full
+    background-image: url('../img/derecha.jpg')
+    background-position: center
+    background-size: cover
+    position: relative
+    z-index: 1
+  .section-architecture.full
+    background: $green
+    height: 100vh
+    position: relative
+    z-index: 1
+    width: 100%
+    .izquierda
+      width: 50%
+      height: 60vh
+      position: absolute
+      top: 50%
+      left: 0
+      transform: translateY(-50%)
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      align-items: center
+      .arriba
+        .lead
+      .abajo
+        width: 70%
+        .sub
+          h3
+            text-align: center
+        .text
+          margin-top: 25px
+          p
+            text-align: justify
+            text-align-last: center
+        .link
+          margin-top: 50px
+          a
+            display: block
+            text-align: center
+    .derecha
+      width: 50%
+      position: absolute
+      right: 0
+      top: 50%
+      transform: translateY(-50%)
+      .image
+        padding: 20px
+        box-sizing: border-box
+        img
+@media (max-width: 650px)
+  #home
+    #menu
+    .contenedor-home
+      background: none !important
+    .section-text.full
+      .lead
+        padding-left: 15px
+        padding-right: 15px
+        box-sizing: border-box
+        h2
+      .text
+        p
+          padding-left: 20px
+          padding-right: 20px
+          box-sizing: border-box
+      .link
+        a
+    .section-architecture.full
+      height: 100vh
+      .izquierda
+        width: 100%
+        height: 50%
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        transform: none
+        justify-content: space-around
+        .arriba
+          .lead
+            margin-top: 100px
+        .abajo
+          width: 70%
+          .sub
+            h3
+              text-align: center
+          .text
+            margin-top: 25px
+            p
+              text-align: justify
+              text-align-last: center
+          .link
+            margin-top: 25px
+            a
+              display: block
+              text-align: center
+      .derecha
+        width: 100%
+        height: 50%
+        position: absolute
+        top: 50%
+        left: 0
+        right: 0
+        bottom: 0
+        transform: none
+        .image
+          padding: 50px !important
+          box-sizing: border-box
+          height: 40vh
+          margin: 0 auto
+          text-align: center
+          img
+            height: 100%

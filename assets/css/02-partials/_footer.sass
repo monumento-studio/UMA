@@ -1,0 +1,83 @@
+#footer
+  background: $black
+  bottom: 0 !important
+  .container
+    width: 100%
+    display: flex
+    justify-content: space-between
+    align-items: center
+    .mail
+      padding-top: 20px
+      align-self: flex-start
+      padding-left: 20px
+      a
+        font-size: 1.6em
+        text-transform: uppercase
+        text-decoration: underline
+        color: white
+        font-weight: 700
+    .dir
+      padding-top: 20px
+      padding-bottom: 20px
+      text-align: center
+      .name
+        p
+          font-size: 1.6em
+          color: $green
+          font-weight: 700
+      .this
+        width: 50%
+        margin: 0 auto
+        p
+          font-size: 1.6em
+          color: white
+          font-weight: 200
+    .tel
+      padding-top: 20px
+      padding-right: 20px
+      align-self: flex-start
+      span
+        font-size: 1.6em
+        color: white
+        font-weight: 700
+@media (max-width: 650px)
+  #footer
+    background: $black
+    bottom: 0 !important
+    .container
+      width: 100%
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      align-items: center
+      .mail
+        padding-top: 20px
+        align-self: flex-start
+        padding-left: 0
+        display: block
+        margin: 0 auto
+        padding-left: 0
+        text-align: center
+        a
+          font-size: 1.6em
+          text-transform: uppercase
+          text-decoration: underline
+          color: white
+          font-weight: 700
+      .dir
+        .name
+          p
+        .this
+          p
+      .tel
+        padding-top: 20px
+        padding-right: 0px
+        align-self: flex-start
+        margin: 0 auto
+        text-align: center
+        display: block
+        padding-bottom: 25px
+        span
+          font-size: 1.6em
+          color: white !important
+          font-weight: 700

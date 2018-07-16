@@ -1,0 +1,82 @@
+#interiores
+  position: relative
+  background: white
+  #menu
+    .top-home
+      .logo
+        width: 150px
+        top: 25px !important
+        transform: translateX(-50%)
+        svg
+          .cls-1
+            fill: $black
+    .ham
+      position: fixed
+      top: 25px
+      right: 25px
+      .line
+        background: $black !important
+    .links
+      position: absolute
+      top: 0
+      right: 0
+  .contenedor-home
+    width: 100vw
+    margin-bottom: 50px
+    .secc
+      width: 100%
+      position: relative
+      display: flex
+      justify-content: center
+      align-items: center
+      .iz
+        width: 50%
+        float: left
+        height: 100%
+        position: sticky
+        top: 25px
+        h2
+          text-align: center
+          width: 50%
+          margin: 0 auto
+          font-size: 7.5em
+          text-transform: uppercase
+          font-weight: 200
+          span
+            color: $gris
+      .de
+        width: 50%
+        img
+          width: 100%
+@media (max-width: 650px)
+  #interiores
+    .contenedor-home
+      width: 100vw
+      margin-bottom: 0px
+      .secc
+        width: 100%
+        position: relative
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        .iz
+          width: 100%
+          float: none
+          height: 100%
+          position: static
+          h2
+            margin-top: 100px !important
+            margin-bottom: 100px !important
+            text-align: center
+            width: 50%
+            margin: 0 auto
+            font-size: 4em
+            text-transform: uppercase
+            font-weight: 200
+            span
+              color: $gris
+        .de
+          width: 100%
+          img
+            width: 100%
