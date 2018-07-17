@@ -3,688 +3,250 @@ $( document ).ready(function() {
 
   //plano interactivo a
 
-  $('#num-uno-a').on('click', function(){
-    $('#fig-uno-a').toggle();
-    $('#fig-dos-a').hide();
-    $('#fig-tres-a').hide();
-    $('#fig-cuatro-a').hide();
-    $('#fig-cinco-a').hide();
-    $('#fig-seis-a').hide();
-    $('#fig-siete-a').hide();
-    $('#fig-ocho-a').hide();
-    $('#fig-nueve-a').hide();
-    $('#fig-diez-a').hide();
-    $('#fig-once-a').hide();
-    $('#fig-doce-a').hide();
-    $('#fig-trece-a').hide();
-    $('#fig-catorce-a').hide();
-    $('#fig-quince-a').hide();
-    $('#fig-dieciseis-a').hide();
-    $('#fig-diecisiete-a').hide();
-  });
 
-  $('#num-dos-a').on('click', function(){
-    $('#fig-uno-a').hide();
-    $('#fig-dos-a').toggle();
-    $('#fig-tres-a').hide();
-    $('#fig-cuatro-a').hide();
-    $('#fig-cinco-a').hide();
-    $('#fig-seis-a').hide();
-    $('#fig-siete-a').hide();
-    $('#fig-ocho-a').hide();
-    $('#fig-nueve-a').hide();
-    $('#fig-diez-a').hide();
-    $('#fig-once-a').hide();
-    $('#fig-doce-a').hide();
-    $('#fig-trece-a').hide();
-    $('#fig-catorce-a').hide();
-    $('#fig-quince-a').hide();
-    $('#fig-dieciseis-a').hide();
-    $('#fig-diecisiete-a').hide();
+  $('#num-uno-a').on('mouseenter', function(){
+    $('#fig-uno-a').show();
   });
-
-  $('#num-tres-a').on('click', function(){
+  $('#num-uno-a').on('mouseleave', function(){
     $('#fig-uno-a').hide();
-    $('#fig-dos-a').hide();
-    $('#fig-tres-a').toggle();
-    $('#fig-cuatro-a').hide();
-    $('#fig-cinco-a').hide();
-    $('#fig-seis-a').hide();
-    $('#fig-siete-a').hide();
-    $('#fig-ocho-a').hide();
-    $('#fig-nueve-a').hide();
-    $('#fig-diez-a').hide();
-    $('#fig-once-a').hide();
-    $('#fig-doce-a').hide();
-    $('#fig-trece-a').hide();
-    $('#fig-catorce-a').hide();
-    $('#fig-quince-a').hide();
-    $('#fig-dieciseis-a').hide();
-    $('#fig-diecisiete-a').hide();
-  });
-
-  $('#num-cuatro-a').on('click', function(){
-    $('#fig-uno-a').hide();
-    $('#fig-dos-a').hide();
-    $('#fig-tres-a').hide();
-    $('#fig-cuatro-a').toggle();
-    $('#fig-cinco-a').hide();
-    $('#fig-seis-a').hide();
-    $('#fig-siete-a').hide();
-    $('#fig-ocho-a').hide();
-    $('#fig-nueve-a').hide();
-    $('#fig-diez-a').hide();
-    $('#fig-once-a').hide();
-    $('#fig-doce-a').hide();
-    $('#fig-trece-a').hide();
-    $('#fig-catorce-a').hide();
-    $('#fig-quince-a').hide();
-    $('#fig-dieciseis-a').hide();
-    $('#fig-diecisiete-a').hide();
-  });
-
-  $('#num-cinco-a').on('click', function(){
-    $('#fig-uno-a').hide();
-    $('#fig-dos-a').hide();
-    $('#fig-tres-a').hide();
-    $('#fig-cuatro-a').hide();
-    $('#fig-cinco-a').toggle();
-    $('#fig-seis-a').hide();
-    $('#fig-siete-a').hide();
-    $('#fig-ocho-a').hide();
-    $('#fig-nueve-a').hide();
-    $('#fig-diez-a').hide();
-    $('#fig-once-a').hide();
-    $('#fig-doce-a').hide();
-    $('#fig-trece-a').hide();
-    $('#fig-catorce-a').hide();
-    $('#fig-quince-a').hide();
-    $('#fig-dieciseis-a').hide();
-    $('#fig-diecisiete-a').hide();
-  });
-
-  $('#num-seis-a').on('click', function(){
-    $('#fig-uno-a').hide();
-    $('#fig-dos-a').hide();
-    $('#fig-tres-a').hide();
-    $('#fig-cuatro-a').hide();
-    $('#fig-cinco-a').hide();
-    $('#fig-seis-a').toggle();
-    $('#fig-siete-a').hide();
-    $('#fig-ocho-a').hide();
-    $('#fig-nueve-a').hide();
-    $('#fig-diez-a').hide();
-    $('#fig-once-a').hide();
-    $('#fig-doce-a').hide();
-    $('#fig-trece-a').hide();
-    $('#fig-catorce-a').hide();
-    $('#fig-quince-a').hide();
-    $('#fig-dieciseis-a').hide();
-    $('#fig-diecisiete-a').hide();
-  });
-
-  $('#num-siete-a').on('click', function(){
-    $('#fig-uno-a').hide();
-    $('#fig-dos-a').hide();
-    $('#fig-tres-a').hide();
-    $('#fig-cuatro-a').hide();
-    $('#fig-cinco-a').hide();
-    $('#fig-seis-a').hide();
-    $('#fig-siete-a').toggle();
-    $('#fig-ocho-a').hide();
-    $('#fig-nueve-a').hide();
-    $('#fig-diez-a').hide();
-    $('#fig-once-a').hide();
-    $('#fig-doce-a').hide();
-    $('#fig-trece-a').hide();
-    $('#fig-catorce-a').hide();
-    $('#fig-quince-a').hide();
-    $('#fig-dieciseis-a').hide();
-    $('#fig-diecisiete-a').hide();
-  });
-
-  $('#num-ocho-a').on('click', function(){
-    $('#fig-uno-a').hide();
-    $('#fig-dos-a').hide();
-    $('#fig-tres-a').hide();
-    $('#fig-cuatro-a').hide();
-    $('#fig-cinco-a').hide();
-    $('#fig-seis-a').hide();
-    $('#fig-siete-a').hide();
-    $('#fig-ocho-a').toggle();
-    $('#fig-nueve-a').hide();
-    $('#fig-diez-a').hide();
-    $('#fig-once-a').hide();
-    $('#fig-doce-a').hide();
-    $('#fig-trece-a').hide();
-    $('#fig-catorce-a').hide();
-    $('#fig-quince-a').hide();
-    $('#fig-dieciseis-a').hide();
-    $('#fig-diecisiete-a').hide();
-  });
-
-  $('#num-nueve-a').on('click', function(){
-    $('#fig-uno-a').hide();
-    $('#fig-dos-a').hide();
-    $('#fig-tres-a').hide();
-    $('#fig-cuatro-a').hide();
-    $('#fig-cinco-a').hide();
-    $('#fig-seis-a').hide();
-    $('#fig-siete-a').hide();
-    $('#fig-ocho-a').hide();
-    $('#fig-nueve-a').toggle();
-    $('#fig-diez-a').hide();
-    $('#fig-once-a').hide();
-    $('#fig-doce-a').hide();
-    $('#fig-trece-a').hide();
-    $('#fig-catorce-a').hide();
-    $('#fig-quince-a').hide();
-    $('#fig-dieciseis-a').hide();
-    $('#fig-diecisiete-a').hide();
-  });
-
-  $('#num-diez-a').on('click', function(){
-    $('#fig-uno-a').hide();
-    $('#fig-dos-a').hide();
-    $('#fig-tres-a').hide();
-    $('#fig-cuatro-a').hide();
-    $('#fig-cinco-a').hide();
-    $('#fig-seis-a').hide();
-    $('#fig-siete-a').hide();
-    $('#fig-ocho-a').hide();
-    $('#fig-nueve-a').hide();
-    $('#fig-diez-a').toggle();
-    $('#fig-once-a').hide();
-    $('#fig-doce-a').hide();
-    $('#fig-trece-a').hide();
-    $('#fig-catorce-a').hide();
-    $('#fig-quince-a').hide();
-    $('#fig-dieciseis-a').hide();
-    $('#fig-diecisiete-a').hide();
   });
 
 
-  $('#num-once-a').on('click', function(){
-    $('#fig-uno-a').hide();
+  $('#num-dos-a').on('mouseenter', function(){
+    $('#fig-dos-a').show();
+  });
+  $('#num-dos-a').on('mouseleave', function(){
     $('#fig-dos-a').hide();
-    $('#fig-tres-a').hide();
-    $('#fig-cuatro-a').hide();
-    $('#fig-cinco-a').hide();
-    $('#fig-seis-a').hide();
-    $('#fig-siete-a').hide();
-    $('#fig-ocho-a').hide();
-    $('#fig-nueve-a').hide();
-    $('#fig-diez-a').hide();
-    $('#fig-once-a').toggle();
-    $('#fig-doce-a').hide();
-    $('#fig-trece-a').hide();
-    $('#fig-catorce-a').hide();
-    $('#fig-quince-a').hide();
-    $('#fig-dieciseis-a').hide();
-    $('#fig-diecisiete-a').hide();
   });
 
-  $('#num-doce-a').on('click', function(){
-    $('#fig-uno-a').hide();
-    $('#fig-dos-a').hide();
+
+  $('#num-tres-a').on('mouseenter', function(){
+    $('#fig-tres-a').show();
+  });
+  $('#num-tres-a').on('mouseleave', function(){
     $('#fig-tres-a').hide();
-    $('#fig-cuatro-a').hide();
-    $('#fig-cinco-a').hide();
-    $('#fig-seis-a').hide();
-    $('#fig-siete-a').hide();
-    $('#fig-ocho-a').hide();
-    $('#fig-nueve-a').hide();
-    $('#fig-diez-a').hide();
-    $('#fig-once-a').hide();
-    $('#fig-doce-a').toggle();
-    $('#fig-trece-a').hide();
-    $('#fig-catorce-a').hide();
-    $('#fig-quince-a').hide();
-    $('#fig-dieciseis-a').hide();
-    $('#fig-diecisiete-a').hide();
   });
 
-  $('#num-trece-a').on('click', function(){
-    $('#fig-uno-a').hide();
-    $('#fig-dos-a').hide();
-    $('#fig-tres-a').hide();
+
+  $('#num-cuatro-a').on('mouseenter', function(){
+    $('#fig-cuatro-a').show();
+  });
+  $('#num-cuatro-a').on('mouseleave', function(){
     $('#fig-cuatro-a').hide();
-    $('#fig-cinco-a').hide();
-    $('#fig-seis-a').hide();
-    $('#fig-siete-a').hide();
-    $('#fig-ocho-a').hide();
-    $('#fig-nueve-a').hide();
-    $('#fig-diez-a').hide();
-    $('#fig-once-a').hide();
-    $('#fig-doce-a').hide();
-    $('#fig-trece-a').toggle();
-    $('#fig-catorce-a').hide();
-    $('#fig-quince-a').hide();
-    $('#fig-dieciseis-a').hide();
-    $('#fig-diecisiete-a').hide();
   });
 
-  $('#num-catorce-a').on('click', function(){
-    $('#fig-uno-a').hide();
-    $('#fig-dos-a').hide();
-    $('#fig-tres-a').hide();
-    $('#fig-cuatro-a').hide();
+
+  $('#num-cinco-a').on('mouseenter', function(){
+    $('#fig-cinco-a').show();
+  });
+  $('#num-cinco-a').on('mouseleave', function(){
     $('#fig-cinco-a').hide();
-    $('#fig-seis-a').hide();
-    $('#fig-siete-a').hide();
-    $('#fig-ocho-a').hide();
-    $('#fig-nueve-a').hide();
-    $('#fig-diez-a').hide();
-    $('#fig-once-a').hide();
-    $('#fig-doce-a').hide();
-    $('#fig-trece-a').hide();
-    $('#fig-catorce-a').toggle();
-    $('#fig-quince-a').hide();
-    $('#fig-dieciseis-a').hide();
-    $('#fig-diecisiete-a').hide();
   });
 
-  $('#num-quince-a').on('click', function(){
-    $('#fig-uno-a').hide();
-    $('#fig-dos-a').hide();
-    $('#fig-tres-a').hide();
-    $('#fig-cuatro-a').hide();
-    $('#fig-cinco-a').hide();
+
+  $('#num-seis-a').on('mouseenter', function(){
+    $('#fig-seis-a').show();
+  });
+  $('#num-seis-a').on('mouseleave', function(){
     $('#fig-seis-a').hide();
-    $('#fig-siete-a').hide();
-    $('#fig-ocho-a').hide();
-    $('#fig-nueve-a').hide();
-    $('#fig-diez-a').hide();
-    $('#fig-once-a').hide();
-    $('#fig-doce-a').hide();
-    $('#fig-trece-a').hide();
-    $('#fig-catorce-a').hide();
-    $('#fig-quince-a').toggle();
-    $('#fig-dieciseis-a').hide();
-    $('#fig-diecisiete-a').hide();
   });
 
-  $('#num-dieciseis-a').on('click', function(){
-    $('#fig-uno-a').hide();
-    $('#fig-dos-a').hide();
-    $('#fig-tres-a').hide();
-    $('#fig-cuatro-a').hide();
-    $('#fig-cinco-a').hide();
-    $('#fig-seis-a').hide();
+  $('#num-siete-a').on('mouseenter', function(){
+    $('#fig-siete-a').show();
+  });
+  $('#num-siete-a').on('mouseleave', function(){
     $('#fig-siete-a').hide();
-    $('#fig-ocho-a').hide();
-    $('#fig-nueve-a').hide();
-    $('#fig-diez-a').hide();
-    $('#fig-once-a').hide();
-    $('#fig-doce-a').hide();
-    $('#fig-trece-a').hide();
-    $('#fig-catorce-a').hide();
-    $('#fig-quince-a').hide();
-    $('#fig-dieciseis-a').toggle();
-    $('#fig-diecisiete-a').hide();
   });
 
-  $('#num-diecisiete-a').on('click', function(){
-    $('#fig-uno-a').hide();
-    $('#fig-dos-a').hide();
-    $('#fig-tres-a').hide();
-    $('#fig-cuatro-a').hide();
-    $('#fig-cinco-a').hide();
-    $('#fig-seis-a').hide();
-    $('#fig-siete-a').hide();
+  $('#num-ocho-a').on('mouseenter', function(){
+    $('#fig-ocho-a').show();
+  });
+  $('#num-ocho-a').on('mouseleave', function(){
     $('#fig-ocho-a').hide();
+  });
+
+  $('#num-nueve-a').on('mouseenter', function(){
+    $('#fig-nueve-a').show();
+  });
+  $('#num-nueve-a').on('mouseleave', function(){
     $('#fig-nueve-a').hide();
+  });
+
+  $('#num-diez-a').on('mouseenter', function(){
+    $('#fig-diez-a').show();
+  });
+  $('#num-diez-a').on('mouseleave', function(){
     $('#fig-diez-a').hide();
+  });
+
+  $('#num-once-a').on('mouseenter', function(){
+    $('#fig-once-a').show();
+  });
+  $('#num-once-a').on('mouseleave', function(){
     $('#fig-once-a').hide();
+  });
+
+  $('#num-doce-a').on('mouseenter', function(){
+    $('#fig-doce-a').show();
+  });
+  $('#num-doce-a').on('mouseleave', function(){
     $('#fig-doce-a').hide();
+  });
+
+  $('#num-trece-a').on('mouseenter', function(){
+    $('#fig-trece-a').show();
+  });
+  $('#num-trece-a').on('mouseleave', function(){
     $('#fig-trece-a').hide();
+  });
+
+  $('#num-catorce-a').on('mouseenter', function(){
+    $('#fig-catorce-a').show();
+  });
+  $('#num-catorce-a').on('mouseleave', function(){
     $('#fig-catorce-a').hide();
+  });
+
+  $('#num-quince-a').on('mouseenter', function(){
+    $('#fig-quince-a').show();
+  });
+  $('#num-quince-a').on('mouseleave', function(){
     $('#fig-quince-a').hide();
+  });
+
+  $('#num-dieciseis-a').on('mouseenter', function(){
+    $('#fig-dieciseis-a').show();
+  });
+  $('#num-dieciseis-a').on('mouseleave', function(){
     $('#fig-dieciseis-a').hide();
-    $('#fig-diecisiete-a').toggle();
+  });
+
+  $('#num-diecisiete-a').on('mouseenter', function(){
+    $('#fig-diecisiete-a').show();
+  });
+  $('#num-diecisiete-a').on('mouseleave', function(){
+    $('#fig-diecisiete-a').hide();
   });
 
   //plano interactivo b
 
-  $('#num-uno').on('click', function(){
-    $('#fig-uno').toggle();
-    $('#fig-dos').hide();
-    $('#fig-tres').hide();
-    $('#fig-cuatro').hide();
-    $('#fig-cinco').hide();
-    $('#fig-seis').hide();
-    $('#fig-siete').hide();
-    $('#fig-ocho').hide();
-    $('#fig-nueve').hide();
-    $('#fig-diez').hide();
-    $('#fig-once').hide();
-    $('#fig-doce').hide();
-    $('#fig-trece').hide();
-    $('#fig-catorce').hide();
-    $('#fig-quince').hide();
-    $('#fig-dieciseis').hide();
-    $('#fig-diecisiete').hide();
+  $('#num-uno').on('mouseenter', function(){
+    $('#fig-uno').show();
+  });
+  $('#num-uno').on('mouseleave', function(){
+    $('#fig-uno').hide();
   });
 
-  $('#num-dos').on('click', function(){
-    $('#fig-uno').hide();
-    $('#fig-dos').toggle();
-    $('#fig-tres').hide();
-    $('#fig-cuatro').hide();
-    $('#fig-cinco').hide();
-    $('#fig-seis').hide();
-    $('#fig-siete').hide();
-    $('#fig-ocho').hide();
-    $('#fig-nueve').hide();
-    $('#fig-diez').hide();
-    $('#fig-once').hide();
-    $('#fig-doce').hide();
-    $('#fig-trece').hide();
-    $('#fig-catorce').hide();
-    $('#fig-quince').hide();
-    $('#fig-dieciseis').hide();
-    $('#fig-diecisiete').hide();
+  $('#num-dos').on('mouseenter', function(){
+    $('#fig-dos').show();
+  });
+  $('#num-dos').on('mouseleave', function(){
+    $('#fig-dos').hide();
   });
 
-  $('#num-tres').on('click', function(){
-    $('#fig-uno').hide();
-    $('#fig-dos').hide();
-    $('#fig-tres').toggle();
-    $('#fig-cuatro').hide();
-    $('#fig-cinco').hide();
-    $('#fig-seis').hide();
-    $('#fig-siete').hide();
-    $('#fig-ocho').hide();
-    $('#fig-nueve').hide();
-    $('#fig-diez').hide();
-    $('#fig-once').hide();
-    $('#fig-doce').hide();
-    $('#fig-trece').hide();
-    $('#fig-catorce').hide();
-    $('#fig-quince').hide();
-    $('#fig-dieciseis').hide();
-    $('#fig-diecisiete').hide();
+  $('#num-tres').on('mouseenter', function(){
+    $('#fig-tres').show();
+  });
+  $('#num-tres').on('mouseleave', function(){
+    $('#fig-tres').hide();
   });
 
-  $('#num-cuatro').on('click', function(){
-    $('#fig-uno').hide();
-    $('#fig-dos').hide();
-    $('#fig-tres').hide();
-    $('#fig-cuatro').toggle();
-    $('#fig-cinco').hide();
-    $('#fig-seis').hide();
-    $('#fig-siete').hide();
-    $('#fig-ocho').hide();
-    $('#fig-nueve').hide();
-    $('#fig-diez').hide();
-    $('#fig-once').hide();
-    $('#fig-doce').hide();
-    $('#fig-trece').hide();
-    $('#fig-catorce').hide();
-    $('#fig-quince').hide();
-    $('#fig-dieciseis').hide();
-    $('#fig-diecisiete').hide();
+  $('#num-cuatro').on('mouseenter', function(){
+    $('#fig-cuatro').show();
+  });
+  $('#num-cuatro').on('mouseleave', function(){
+    $('#fig-cuatro').hide();
   });
 
-  $('#num-cinco').on('click', function(){
-    $('#fig-uno').hide();
-    $('#fig-dos').hide();
-    $('#fig-tres').hide();
-    $('#fig-cuatro').hide();
-    $('#fig-cinco').toggle();
-    $('#fig-seis').hide();
-    $('#fig-siete').hide();
-    $('#fig-ocho').hide();
-    $('#fig-nueve').hide();
-    $('#fig-diez').hide();
-    $('#fig-once').hide();
-    $('#fig-doce').hide();
-    $('#fig-trece').hide();
-    $('#fig-catorce').hide();
-    $('#fig-quince').hide();
-    $('#fig-dieciseis').hide();
-    $('#fig-diecisiete').hide();
+  $('#num-cinco').on('mouseenter', function(){
+    $('#fig-cinco').show();
+  });
+  $('#num-cinco').on('mouseleave', function(){
+    $('#fig-cinco').hide();
   });
 
-  $('#num-seis').on('click', function(){
-    $('#fig-uno').hide();
-    $('#fig-dos').hide();
-    $('#fig-tres').hide();
-    $('#fig-cuatro').hide();
-    $('#fig-cinco').hide();
-    $('#fig-seis').toggle();
-    $('#fig-siete').hide();
-    $('#fig-ocho').hide();
-    $('#fig-nueve').hide();
-    $('#fig-diez').hide();
-    $('#fig-once').hide();
-    $('#fig-doce').hide();
-    $('#fig-trece').hide();
-    $('#fig-catorce').hide();
-    $('#fig-quince').hide();
-    $('#fig-dieciseis').hide();
-    $('#fig-diecisiete').hide();
+  $('#num-seis').on('mouseenter', function(){
+    $('#fig-seis').show();
+  });
+  $('#num-seis').on('mouseleave', function(){
+    $('#fig-seis').hide();
   });
 
-  $('#num-siete').on('click', function(){
-    $('#fig-uno').hide();
-    $('#fig-dos').hide();
-    $('#fig-tres').hide();
-    $('#fig-cuatro').hide();
-    $('#fig-cinco').hide();
-    $('#fig-seis').hide();
-    $('#fig-siete').toggle();
-    $('#fig-ocho').hide();
-    $('#fig-nueve').hide();
-    $('#fig-diez').hide();
-    $('#fig-once').hide();
-    $('#fig-doce').hide();
-    $('#fig-trece').hide();
-    $('#fig-catorce').hide();
-    $('#fig-quince').hide();
-    $('#fig-dieciseis').hide();
-    $('#fig-diecisiete').hide();
+  $('#num-siete').on('mouseenter', function(){
+    $('#fig-siete').show();
+  });
+  $('#num-siete').on('mouseleave', function(){
+    $('#fig-siete').hide();
   });
 
-  $('#num-ocho').on('click', function(){
-    $('#fig-uno').hide();
-    $('#fig-dos').hide();
-    $('#fig-tres').hide();
-    $('#fig-cuatro').hide();
-    $('#fig-cinco').hide();
-    $('#fig-seis').hide();
-    $('#fig-siete').hide();
-    $('#fig-ocho').toggle();
-    $('#fig-nueve').hide();
-    $('#fig-diez').hide();
-    $('#fig-once').hide();
-    $('#fig-doce').hide();
-    $('#fig-trece').hide();
-    $('#fig-catorce').hide();
-    $('#fig-quince').hide();
-    $('#fig-dieciseis').hide();
-    $('#fig-diecisiete').hide();
+  $('#num-ocho').on('mouseenter', function(){
+    $('#fig-ocho').show();
+  });
+  $('#num-ocho').on('mouseleave', function(){
+    $('#fig-ocho').hide();
   });
 
-  $('#num-nueve').on('click', function(){
-    $('#fig-uno').hide();
-    $('#fig-dos').hide();
-    $('#fig-tres').hide();
-    $('#fig-cuatro').hide();
-    $('#fig-cinco').hide();
-    $('#fig-seis').hide();
-    $('#fig-siete').hide();
-    $('#fig-ocho').hide();
-    $('#fig-nueve').toggle();
-    $('#fig-diez').hide();
-    $('#fig-once').hide();
-    $('#fig-doce').hide();
-    $('#fig-trece').hide();
-    $('#fig-catorce').hide();
-    $('#fig-quince').hide();
-    $('#fig-dieciseis').hide();
-    $('#fig-diecisiete').hide();
+  $('#num-nueve').on('mouseenter', function(){
+    $('#fig-nueve').show();
+  });
+  $('#num-nueve').on('mouseleave', function(){
+    $('#fig-nueve').hide();
   });
 
-  $('#num-diez').on('click', function(){
-    $('#fig-uno').hide();
-    $('#fig-dos').hide();
-    $('#fig-tres').hide();
-    $('#fig-cuatro').hide();
-    $('#fig-cinco').hide();
-    $('#fig-seis').hide();
-    $('#fig-siete').hide();
-    $('#fig-ocho').hide();
-    $('#fig-nueve').hide();
-    $('#fig-diez').toggle();
-    $('#fig-once').hide();
-    $('#fig-doce').hide();
-    $('#fig-trece').hide();
-    $('#fig-catorce').hide();
-    $('#fig-quince').hide();
-    $('#fig-dieciseis').hide();
-    $('#fig-diecisiete').hide();
+  $('#num-diez').on('mouseenter', function(){
+    $('#fig-diez').show();
+  });
+  $('#num-diez').on('mouseleave', function(){
+    $('#fig-diez').hide();
   });
 
-
-  $('#num-once').on('click', function(){
-    $('#fig-uno').hide();
-    $('#fig-dos').hide();
-    $('#fig-tres').hide();
-    $('#fig-cuatro').hide();
-    $('#fig-cinco').hide();
-    $('#fig-seis').hide();
-    $('#fig-siete').hide();
-    $('#fig-ocho').hide();
-    $('#fig-nueve').hide();
-    $('#fig-diez').hide();
-    $('#fig-once').toggle();
-    $('#fig-doce').hide();
-    $('#fig-trece').hide();
-    $('#fig-catorce').hide();
-    $('#fig-quince').hide();
-    $('#fig-dieciseis').hide();
-    $('#fig-diecisiete').hide();
+  $('#num-once').on('mouseenter', function(){
+    $('#fig-once').show();
+  });
+  $('#num-once').on('mouseleave', function(){
+    $('#fig-once').hide();
   });
 
-  $('#num-doce').on('click', function(){
-    $('#fig-uno').hide();
-    $('#fig-dos').hide();
-    $('#fig-tres').hide();
-    $('#fig-cuatro').hide();
-    $('#fig-cinco').hide();
-    $('#fig-seis').hide();
-    $('#fig-siete').hide();
-    $('#fig-ocho').hide();
-    $('#fig-nueve').hide();
-    $('#fig-diez').hide();
-    $('#fig-once').hide();
-    $('#fig-doce').toggle();
-    $('#fig-trece').hide();
-    $('#fig-catorce').hide();
-    $('#fig-quince').hide();
-    $('#fig-dieciseis').hide();
-    $('#fig-diecisiete').hide();
+  $('#num-doce').on('mouseenter', function(){
+    $('#fig-doce').show();
+  });
+  $('#num-doce').on('mouseleave', function(){
+    $('#fig-doce').hide();
   });
 
-  $('#num-trece').on('click', function(){
-    $('#fig-uno').hide();
-    $('#fig-dos').hide();
-    $('#fig-tres').hide();
-    $('#fig-cuatro').hide();
-    $('#fig-cinco').hide();
-    $('#fig-seis').hide();
-    $('#fig-siete').hide();
-    $('#fig-ocho').hide();
-    $('#fig-nueve').hide();
-    $('#fig-diez').hide();
-    $('#fig-once').hide();
-    $('#fig-doce').hide();
-    $('#fig-trece').toggle();
-    $('#fig-catorce').hide();
-    $('#fig-quince').hide();
-    $('#fig-dieciseis').hide();
-    $('#fig-diecisiete').hide();
+  $('#num-trece').on('mouseenter', function(){
+    $('#fig-trece').show();
+  });
+  $('#num-trece').on('mouseleave', function(){
+    $('#fig-trece').hide();
   });
 
-  $('#num-catorce').on('click', function(){
-    $('#fig-uno').hide();
-    $('#fig-dos').hide();
-    $('#fig-tres').hide();
-    $('#fig-cuatro').hide();
-    $('#fig-cinco').hide();
-    $('#fig-seis').hide();
-    $('#fig-siete').hide();
-    $('#fig-ocho').hide();
-    $('#fig-nueve').hide();
-    $('#fig-diez').hide();
-    $('#fig-once').hide();
-    $('#fig-doce').hide();
-    $('#fig-trece').hide();
-    $('#fig-catorce').toggle();
-    $('#fig-quince').hide();
-    $('#fig-dieciseis').hide();
-    $('#fig-diecisiete').hide();
+  $('#num-catorce').on('mouseenter', function(){
+    $('#fig-catorce').show();
+  });
+  $('#num-catorce').on('mouseleave', function(){
+    $('#fig-catorce').hide();
   });
 
-  $('#num-quince').on('click', function(){
-    $('#fig-uno').hide();
-    $('#fig-dos').hide();
-    $('#fig-tres').hide();
-    $('#fig-cuatro').hide();
-    $('#fig-cinco').hide();
-    $('#fig-seis').hide();
-    $('#fig-siete').hide();
-    $('#fig-ocho').hide();
-    $('#fig-nueve').hide();
-    $('#fig-diez').hide();
-    $('#fig-once').hide();
-    $('#fig-doce').hide();
-    $('#fig-trece').hide();
-    $('#fig-catorce').hide();
-    $('#fig-quince').toggle();
-    $('#fig-dieciseis').hide();
-    $('#fig-diecisiete').hide();
+  $('#num-quince').on('mouseenter', function(){
+    $('#fig-quince').show();
+  });
+  $('#num-quince').on('mouseleave', function(){
+    $('#fig-quince').hide();
   });
 
-  $('#num-dieciseis').on('click', function(){
-    $('#fig-uno').hide();
-    $('#fig-dos').hide();
-    $('#fig-tres').hide();
-    $('#fig-cuatro').hide();
-    $('#fig-cinco').hide();
-    $('#fig-seis').hide();
-    $('#fig-siete').hide();
-    $('#fig-ocho').hide();
-    $('#fig-nueve').hide();
-    $('#fig-diez').hide();
-    $('#fig-once').hide();
-    $('#fig-doce').hide();
-    $('#fig-trece').hide();
-    $('#fig-catorce').hide();
-    $('#fig-quince').hide();
-    $('#fig-dieciseis').toggle();
-    $('#fig-diecisiete').hide();
+  $('#num-dieciseis').on('mouseenter', function(){
+    $('#fig-dieciseis').show();
+  });
+  $('#num-dieciseis').on('mouseleave', function(){
+    $('#fig-dieciseis').hide();
   });
 
-  $('#num-diecisiete').on('click', function(){
-    $('#fig-uno').hide();
-    $('#fig-dos').hide();
-    $('#fig-tres').hide();
-    $('#fig-cuatro').hide();
-    $('#fig-cinco').hide();
-    $('#fig-seis').hide();
-    $('#fig-siete').hide();
-    $('#fig-ocho').hide();
-    $('#fig-nueve').hide();
-    $('#fig-diez').hide();
-    $('#fig-once').hide();
-    $('#fig-doce').hide();
-    $('#fig-trece').hide();
-    $('#fig-catorce').hide();
-    $('#fig-quince').hide();
-    $('#fig-dieciseis').hide();
-    $('#fig-diecisiete').toggle();
+  $('#num-diecisiete').on('mouseenter', function(){
+    $('#fig-diecisiete').show();
+  });
+  $('#num-diecisiete').on('mouseleave', function(){
+    $('#fig-diecisiete').hide();
   });
 
 
@@ -701,12 +263,6 @@ $( document ).ready(function() {
     $('.departamentob').show();
     $('.departamentoa').hide();
     $('.departamentofachada').hide();
-  });
-
-  $('.fachada').on('click', function(){
-    $('.departamentoa').hide();
-    $('.departamentob').hide();
-    $('.departamentofachada').show();
   });
 
 
