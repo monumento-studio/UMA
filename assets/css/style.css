@@ -1483,7 +1483,7 @@ body {
         height: 80vh; }
         #amenidades .contenedor-home .secc .imagen img {
           width: 100%;
-          height: auto; } }
+          height: auto !important; } }
 
 #ubicacion {
   position: relative;
