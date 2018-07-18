@@ -1000,7 +1000,8 @@ body {
 
 @media (max-width: 650px) {
   #home .contenedor-home {
-    background: none !important; }
+    background-size: 200%;
+    background-position: top; }
   #home .section-text.full .lead {
     padding-left: 15px;
     padding-right: 15px;
