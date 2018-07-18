@@ -1480,7 +1480,7 @@ body {
         text-align: justify;
         text-align-last: center; }
       #amenidades .contenedor-home .secc .imagen {
-        height: 80vh; }
+        height: auto !important; }
         #amenidades .contenedor-home .secc .imagen img {
           width: 100%;
           height: auto !important; } }
