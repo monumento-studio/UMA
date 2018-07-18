@@ -1700,11 +1700,13 @@ body {
         height: 100%; }
     #vistas .contenedor-home .galeria .imagen {
       width: auto;
-      padding: 0 2.5rem; }
+      padding: 0 2.5rem;
+      height: auto;
+      width: 60vw; }
       #vistas .contenedor-home .galeria .imagen img {
+        margin: 0 auto;
         width: auto;
-        max-width: none;
-        height: 80vh; }
+        max-width: 100%; }
     #vistas .contenedor-home .galeria button.slick-next {
       position: absolute;
       top: 0;
@@ -1725,4 +1727,8 @@ body {
   #vistas .contenedor-home {
     padding-top: 50px;
     margin-bottom: 0px !important;
-    width: 100vw; } }
+    width: 100vw; }
+    #vistas .contenedor-home .galeria .imagen {
+      padding: 0 10px;
+      height: auto !important;
+      margin-bottom: 30px; } }
