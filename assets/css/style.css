@@ -1475,7 +1475,7 @@ body {
       #amenidades .contenedor-home .secc .texto p {
         font-size: 1.6em;
         text-align: center;
-        width: 80%;
+        width: 80% !important;
         margin: 50px auto;
         text-align: justify;
         text-align-last: center; }
