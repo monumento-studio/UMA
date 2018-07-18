@@ -542,7 +542,7 @@ body {
         text-transform: uppercase;
         letter-spacing: 1px; }
         #menu .links ul li a:hover {
-          color: white; }
+          color: white !important; }
   #menu .contacto {
     position: fixed;
     top: 0;
