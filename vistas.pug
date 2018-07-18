@@ -17,9 +17,9 @@ html
           .imagen
             img(src="assets/img/vi-01.png")
           .imagen
-            img(src="assets/img/vi-01.png")
+            img(src="assets/img/tipoa-01.png")
           .imagen
-            img(src="assets/img/vi-01.png")
+            img(src="assets/img/tipob.png")
           .imagen
             img(src="assets/img/vi-01.png")
   
@@ -31,3 +31,36 @@ html
     script(src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous")
     script(type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js")
     script(type="text/javascript" src="assets/js/functions.js")
+    .
+      <script>
+      
+      //slick
+        $('.galeria').slick({
+          dots: false,
+          infinite: true,
+          speed: 300,
+          variableWidth: true,
+          centerMode: true,
+          centerPadding: '60px',
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true
+              }
+            }
+          ]
+        });
+      </script>
