@@ -860,24 +860,24 @@ body {
           font-size: 3em;
           text-transform: uppercase;
           letter-spacing: 2px;
-          -webkit-transition: all 600ms ease-in-out;
-          -o-transition: all 600ms ease-in-out;
-          transition: all 600ms ease-in-out;
+          -webkit-transition: all 300ms ease-in-out;
+          -o-transition: all 300ms ease-in-out;
+          transition: all 300ms ease-in-out;
           opacity: 0; }
       #home .contenedor-home .middle-home .up p {
         opacity: 1;
         top: 50%;
-        -webkit-transition: all 600ms ease-in-out;
-        -o-transition: all 600ms ease-in-out;
-        transition: all 600ms ease-in-out; }
+        -webkit-transition: all 300ms ease-in-out;
+        -o-transition: all 300ms ease-in-out;
+        transition: all 300ms ease-in-out; }
       #home .contenedor-home .middle-home .upbosque {
         height: 100vh; }
         #home .contenedor-home .middle-home .upbosque p {
           opacity: 1 !important;
           top: 50% !important;
-          -webkit-transition: all 600ms ease-in-out;
-          -o-transition: all 600ms ease-in-out;
-          transition: all 600ms ease-in-out; }
+          -webkit-transition: all 300ms ease-in-out;
+          -o-transition: all 300ms ease-in-out;
+          transition: all 300ms ease-in-out; }
       #home .contenedor-home .middle-home .bosque p {
         position: fixed;
         color: white;
@@ -889,9 +889,9 @@ body {
         font-size: 3em;
         text-transform: uppercase;
         letter-spacing: 2px;
-        -webkit-transition: all 600ms ease-in-out;
-        -o-transition: all 600ms ease-in-out;
-        transition: all 600ms ease-in-out;
+        -webkit-transition: all 300ms ease-in-out;
+        -o-transition: all 300ms ease-in-out;
+        transition: all 300ms ease-in-out;
         opacity: 0; }
       #home .contenedor-home .middle-home .upexit p {
         opacity: 0;
