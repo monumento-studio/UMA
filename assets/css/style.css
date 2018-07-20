@@ -902,7 +902,7 @@ body {
     #home .split-image .cocoen {
       height: 100%; }
       #home .split-image .cocoen img {
-        height: 100%; }
+        width: 100%; }
   #home .section-text.full {
     background-color: #191c1c;
     position: relative;
