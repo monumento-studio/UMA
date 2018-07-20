@@ -564,11 +564,15 @@ body {
     z-index: 1; }
     #menu .contacto .teldir {
       color: white;
-      font-size: 6em;
-      font-weight: 200; }
+      font-size: 4em;
+      font-weight: 200;
+      margin-top: 50px; }
+      #menu .contacto .teldir .tel p {
+        text-align: center; }
       #menu .contacto .teldir .mail a {
         color: white;
-        text-decoration: underline; }
+        text-decoration: underline;
+        text-transform: uppercase; }
     #menu .contacto .mensaje {
       width: 100vw;
       margin-top: 50px; }
@@ -588,7 +592,7 @@ body {
           text-align: center;
           width: 60%;
           margin: 0 auto;
-          font-size: 6em;
+          font-size: 4em;
           font-weight: 200;
           background: none;
           border-left: none;
@@ -609,7 +613,7 @@ body {
           margin-top: 20px;
           width: 60%;
           height: 150px;
-          font-size: 6em;
+          font-size: 4em;
           font-weight: 200;
           text-align: center;
           text-transform: uppercase;
@@ -623,7 +627,7 @@ body {
           outline: none;
           color: white; }
     #menu .contacto .close span {
-      font-size: 6em;
+      font-size: 4em;
       color: white;
       font-weight: 200; }
 
