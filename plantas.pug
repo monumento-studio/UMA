@@ -11,14 +11,18 @@ html
       include _menu.html
       .contenedor-plantas
         .tabs
-          .tipoa.tab.clickedtab
-            span DEPARTAMENTO TIPO A
+          .tipoa.tab
+            a(href="#tipoa")
+              span DEPARTAMENTO TIPO A
           .tipob.tab
-            span DEPARTAMENTO TIPO B
-        .departamentoa.dep
+            a(href="#tipob")
+              span DEPARTAMENTO TIPO B
+        .departamentoa.dep#tipoa
           .izquierda
             .lead
               h2 <span>DEPARTAMENTO<br>TIPO A</span> / 292m2
+            .disc
+              p Mueve el cursor sobre los números para ver el metraje
             .imagen
               img(src="assets/img/tipoa-01.png")
           .derecha
@@ -9675,10 +9679,12 @@ html
                 </svg>
 
 
-        .departamentob.dep
+        .departamentob.dep#tipob
           .izquierda
             .lead
               h2 <span>DEPARTAMENTO<br>TIPO B</span> / 263m2
+            .disc
+              p Mueve el cursor sobre los números para ver el metraje
             .imagen
               img(src="assets/img/tipob.png")
           .derecha
@@ -19680,6 +19686,9 @@ html
                   </g>
                 </svg>
                 
+        .discl
+          p Las imágenes que se muestran son representativas. El proyecto podrá tener variaciones. La validez será la que se exprese en el contrato.
+
                 
       include _footer.html
  

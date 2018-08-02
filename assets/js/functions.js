@@ -254,17 +254,6 @@ $( document ).ready(function() {
 
 
 
-  $('.tipoa').on('click', function(){
-    $('.departamentoa').show();
-    $('.departamentob').hide();
-    $('.departamentofachada').hide();
-  });
-
-  $('.tipob').on('click', function(){
-    $('.departamentob').show();
-    $('.departamentoa').hide();
-    $('.departamentofachada').hide();
-  });
 
 
     //menu hover
@@ -282,21 +271,6 @@ $( document ).ready(function() {
     });
 
     // plantas
-
-    $('.tab').on('click', function(){
-      $(this).addClass('clickedtab');
-      $(this).siblings().removeClass('clickedtab');
-    });
-
-    $('.tipoa').on('click', function(){
-      $('.departamentoa').show();
-      $('.departamentob').hide();
-    });
-
-    $('.tipob').on('click', function(){
-      $('.departamentoa').hide();
-      $('.departamentob').show();
-    });
 
 
 

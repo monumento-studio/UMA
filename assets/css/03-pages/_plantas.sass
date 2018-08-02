@@ -22,7 +22,6 @@
       right: 0
   .contenedor-plantas
     background: white
-    height: 100vh
     position: relative
     top: 120px
     .tabs
@@ -43,12 +42,18 @@
         flex-direction: column
         justify-content: center
         align-items: center
-        span
+        position: relative
+        z-index: 2
+        a
+          color: $black
+          span
 
         &:hover
           background: $black
           color: white
           transition: all 300ms ease
+          a
+            color: white
       .clickedtab
         background: $black !important
         color: white !important
@@ -72,6 +77,11 @@
           h2
             span
               text-decoration: underline
+        .disc
+          margin-top: 50px
+          p
+            font-size: 1.6em
+            text-align: center
         .imagen
           width: 200px
           height: 200px
@@ -119,9 +129,17 @@
               position: relative
               display: none
     .departamentob
-      display: none
+      margin-top: 100px
+      margin-bottom: 100px
       .izquierda
       .derecha
+    .discl
+      margin-bottom: 150px
+      p
+        width: 80%
+        margin: 0 auto
+        font-size: 1.6em
+        text-align: center
     .departamentofachada
       .izquierda
       .derecha
