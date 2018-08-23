@@ -1136,7 +1136,9 @@ body {
       margin: 0 auto;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      text-align: center; }
+      text-align: center;
+      position: relative;
+      z-index: 1; }
       #plantas .contenedor-plantas .tabs span {
         font-size: 2.2em; }
       #plantas .contenedor-plantas .tabs .tab {
