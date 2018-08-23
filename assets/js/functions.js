@@ -317,8 +317,10 @@ $( document ).ready(function() {
 
       if ($(this).scrollTop() > winH7 ) {
         $('.links ul li a ').css('color', '#191c1c');
+        $('.scroll').hide();
       } else {
         $('.links ul li a ').css('color', '#004c42');
+        $('.scroll').show();
       }
 
     }).on("resize", function(){ // If the user resizes the window

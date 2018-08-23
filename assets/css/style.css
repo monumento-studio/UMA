@@ -847,6 +847,22 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; }
+    #home .contenedor-home .scroll {
+      position: fixed;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      bottom: 0; }
+      #home .contenedor-home .scroll span {
+        text-transform: uppercase;
+        color: #666666;
+        font-size: 1.1rem; }
+      #home .contenedor-home .scroll .line {
+        margin: 0 auto;
+        width: 1px;
+        height: 25px;
+        background: #666666; }
     #home .contenedor-home .middle-home {
       position: relative;
       text-align: center; }
